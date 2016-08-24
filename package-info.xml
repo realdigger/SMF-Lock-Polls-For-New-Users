@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.simplemachines.org/xml/package-info">
+<package-info xmlns="http://www.simplemachines.org/xml/package-info">
+
+    <id>digger:lock_polls_for_new_users</id>
+    <name>Lock Polls For New Users</name>
+    <type>modification</type>
+    <version>1.0</version>
+
+    <install for="2.0 - 2.0.99">
+        <readme parsebbc="true">readme/english.txt</readme>
+        <readme parsebbc="true" lang="russian">readme/russian.txt</readme>
+        <readme parsebbc="true" lang="english-utf8">readme/english-utf8.txt</readme>
+        <readme parsebbc="true" lang="russian-utf8">readme/russian-utf8.txt</readme>
+        <require-dir name="languages" destination="$themedir"/>
+        <require-file name="Mod-LockPollsForNewUsers.php" destination="$sourcedir"/>
+        <code>database.php</code>
+        <code>hooks.php</code>
+    </install>
+
+    <uninstall for="2.0 - 2.0.99">
+        <remove-dir name="$themedir/languages/LockPollsForNewUsers"/>
+        <remove-file name="$sourcedir/Mod-LockPollsForNewUsers.php"/>
+        <code>hooks.php</code>
+    </uninstall>
+
+</package-info>

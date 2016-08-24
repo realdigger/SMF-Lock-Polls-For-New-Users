@@ -1,0 +1,5 @@
+[center][b]Lock Polls For New Users[/b][/center]
+
+After this mod installed, only members who have registered before the poll started can vote.
+
+This mod is licensed under The MIT License (MIT)
