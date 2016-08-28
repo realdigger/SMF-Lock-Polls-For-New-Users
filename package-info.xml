@@ -5,9 +5,9 @@
     <id>digger:lock_polls_for_new_users</id>
     <name>Lock Polls For New Users</name>
     <type>modification</type>
-    <version>1.0</version>
+    <version>1.0.1</version>
 
-    <install for="2.0 - 2.0.99">
+    <install for="2.0 - 2.1.99">
         <readme parsebbc="true">readme/english.txt</readme>
         <readme parsebbc="true" lang="russian">readme/russian.txt</readme>
         <readme parsebbc="true" lang="english-utf8">readme/english-utf8.txt</readme>
@@ -18,7 +18,7 @@
         <code>hooks.php</code>
     </install>
 
-    <uninstall for="2.0 - 2.0.99">
+    <uninstall for="2.0 - 2.1.99">
         <remove-dir name="$themedir/languages/LockPollsForNewUsers"/>
         <remove-file name="$sourcedir/Mod-LockPollsForNewUsers.php"/>
         <code>hooks.php</code>
