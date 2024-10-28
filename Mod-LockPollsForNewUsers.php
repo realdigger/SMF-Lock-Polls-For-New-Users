@@ -45,7 +45,7 @@ function addLockPollsForNewUsersCopyright()
     global $context;
 
     if ($context['current_action'] == 'credits') {
-        $context['copyrights']['mods'][] = '<a href="http://mysmf.ru" title="Lock Polls For New Users">Lock Polls For New Users</a> &copy; 2012-2016, digger';
+        $context['copyrights']['mods'][] = '<a href="http://mysmf.ru" title="Lock Polls For New Users">Lock Polls For New Users</a> &copy; 2012-20124 digger';
     }
 }
 
