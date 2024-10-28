@@ -1,7 +1,7 @@
 <?php
 /**
  * @package SMF Lock Polls For New Users
- * @author digger http://mysmf.ru
+ * @author digger https://mysmf.net
  * @copyright 2012-2024
  * @license The MIT License (MIT)
  * @version 1.0
